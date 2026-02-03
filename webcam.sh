@@ -1,4 +1,8 @@
 #!bin/bash
+#!/bin/bash
+
+PORT=${PORT:-3333}
+HOST=0.0.0.0
 
 trap 'printf "\n";stop' 2
 
